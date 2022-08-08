@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+#Additions
+.prettierrc.json
+Final Project.postman_collection.json
+images/
+client/.prettierrc.json
+client/.editorconfig
