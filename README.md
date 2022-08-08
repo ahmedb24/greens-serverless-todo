@@ -1,6 +1,6 @@
-# serverless-todo
+# greens-serverless-todo
 
-A serverless todo application
+A greens serverless todo application
 
 # Functionality of the application
 
