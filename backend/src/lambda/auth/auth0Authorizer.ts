@@ -1,9 +1,8 @@
 import { CustomAuthorizerEvent, CustomAuthorizerResult } from 'aws-lambda'
 import 'source-map-support/register'
 
-import { verify, decode, Secret } from 'jsonwebtoken'
+import { verify, Secret } from 'jsonwebtoken'
 import { createLogger } from '../../utils/logger'
-import { Jwt } from '../../auth/Jwt'
 import { JwtPayload } from '../../auth/JwtPayload'
 import axios from 'axios'
 
