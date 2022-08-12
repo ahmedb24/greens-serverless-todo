@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link, Route, Router, Switch } from 'react-router-dom'
+import { Link, Route, Router, Switch,  } from 'react-router-dom'
 import { Grid, Menu, Segment } from 'semantic-ui-react'
 
 import Auth from './auth/Auth'
@@ -10,7 +10,7 @@ import { Todos } from './components/Todos'
 
 export interface AppProps {}
 
-export interface AppProps {
+export interface AppProps{
   auth: Auth
   history: any
 }
